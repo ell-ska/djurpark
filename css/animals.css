@@ -1,0 +1,44 @@
+.content__image-small {
+    grid-column: 1 / 4;
+    grid-row: span 2;
+}
+
+.content__title {
+    grid-column: 4 / -1;
+    align-self: end;
+}
+
+.content__species {
+    grid-column: 4 / -1;    
+}
+
+.content__desc {
+    grid-column: 1 / 6;
+    margin: 2rem 0;
+}
+
+.content__image-big {
+    grid-column: 6 / -1;
+    align-self: center;
+    margin: 2rem 0;
+}
+
+.content__food {
+    grid-column: 1 / -1;
+}
+
+.content__length {
+    grid-column: 1 / -1;
+}
+
+.content__weight {
+    grid-column: 1 / -1;
+}
+
+.content__lifespan {
+    grid-column: 1 / -1;
+}
+
+.content__area {
+    grid-column: 1 / -1;    
+}

@@ -1,0 +1,52 @@
+.content__title {
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
+.content__image-small {
+    grid-column: 1 / 4;
+    grid-row: span 2;
+}
+
+.content__desc {
+    grid-column: 4 / -1;
+}
+
+.content__button {
+    position: relative;
+    grid-column: 4 / -1;
+    align-self: end;
+    max-width: fit-content;
+    height: fit-content;
+    color: var(--color-accent);
+    font-weight: var(--font-weight-bold);
+}
+
+.content__button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--color-accent);
+    transition: width 0.3s;
+}
+
+.content__button:hover {
+    color: var(--color-accent-dark);
+}
+
+.content__button:hover::after {
+    width: 100%;
+    background-color: var(--color-accent-dark);
+}
+
+.content__food {
+    grid-column: 1 / -1;
+}
+
+.content__species {
+    grid-column: 1 / -1;
+}

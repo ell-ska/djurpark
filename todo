@@ -1,0 +1,41 @@
+[] all
+    [x] header
+        [x] logo
+            [x] nav
+        [x] footer
+            [x] copyright
+[x] home
+    [x] sidebar
+        [x] clickable list of all animals
+    [x] main
+        [] welcome screen on load
+        [x] when aminal is clicked replace with short summary
+        [x] only one animal active at the time
+            [x] small image
+            [x] name
+            [x] first 200 characters of the descritpion
+            [x] food
+            [x] which group it belongs to and link to group page
+[x] group pages
+    [x] mamals
+    [x] reptiles
+    [x] birds
+        [x] sidebar
+            [x] shows animals in group
+        [x] main content
+            [x] show message about group type
+            [x] when animal is clicked show full summary
+                [x] title area
+                    [x] small image
+                    [xx] animal name
+                    [] the group
+                [x] descritpion area
+                    [x] large image
+                    [x] full descritpion
+                [x] detail area
+                    [x] food
+                    [x] length/height, weight
+                    [x] lifespan
+                    [x] the areas it's found in
+
+[] if active animal is clicked again, display welcome screen
